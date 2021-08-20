@@ -1,4 +1,4 @@
-package triangulation;
+package kluver.triangulation;
 
 /**
  * Edge distance pack class implementation used to describe the distance to a

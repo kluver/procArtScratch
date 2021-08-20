@@ -1,4 +1,4 @@
-package triangulation;
+package kluver.triangulation;
 
 /**
  * Exception thrown by the Delaunay triangulator when it is initialized with

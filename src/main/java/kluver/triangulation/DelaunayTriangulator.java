@@ -1,11 +1,11 @@
-package triangulation;
+package kluver.triangulation;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 /**
- * A Java implementation of an incremental 2D Delaunay triangulation algorithm.
+ * A Java implementation of an incremental 2D Delaunay kluver.triangulation algorithm.
  * 
  * @author Johannes Diemke
  */
@@ -29,7 +29,7 @@ public class DelaunayTriangulator {
     }
 
     /**
-     * This method generates a Delaunay triangulation from the specified point
+     * This method generates a Delaunay kluver.triangulation from the specified point
      * set.
      * 
      * @throws NotEnoughPointsException
@@ -45,7 +45,7 @@ public class DelaunayTriangulator {
          * In order for the in circumcircle test to not consider the vertices of
          * the super triangle we have to start out with a big triangle
          * containing the whole point set. We have to scale the super triangle
-         * to be very large. Otherwise the triangulation is not convex.
+         * to be very large. Otherwise the kluver.triangulation is not convex.
          */
         double maxOfAnyCoordinate = 0.0d;
 
@@ -200,10 +200,10 @@ public class DelaunayTriangulator {
     }
 
     /**
-     * Returns the trianges of the triangulation in form of a vector of 2D
+     * Returns the trianges of the kluver.triangulation in form of a vector of 2D
      * triangles.
      * 
-     * @return Returns the triangles of the triangulation.
+     * @return Returns the triangles of the kluver.triangulation.
      */
     public List<Triangle2D> getTriangles() {
         return triangleSoup.getTriangles();

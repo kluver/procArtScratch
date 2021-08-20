@@ -1,3 +1,5 @@
+package kluver;
+
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.geom.Point2D;

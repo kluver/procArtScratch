@@ -1,4 +1,6 @@
-import triangulation.Triangle2D;
+package kluver;
+
+import kluver.triangulation.Triangle2D;
 
 import java.awt.*;
 import java.awt.geom.Point2D;

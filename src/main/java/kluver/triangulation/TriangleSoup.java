@@ -1,4 +1,4 @@
-package triangulation;
+package kluver.triangulation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

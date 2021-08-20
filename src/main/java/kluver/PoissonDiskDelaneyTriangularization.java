@@ -1,7 +1,9 @@
-import triangulation.DelaunayTriangulator;
-import triangulation.NotEnoughPointsException;
-import triangulation.Triangle2D;
-import triangulation.Vector2D;
+package kluver;
+
+import kluver.triangulation.DelaunayTriangulator;
+import kluver.triangulation.NotEnoughPointsException;
+import kluver.triangulation.Triangle2D;
+import kluver.triangulation.Vector2D;
 
 import java.awt.geom.Point2D;
 import java.util.*;

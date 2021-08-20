@@ -1,19 +1,15 @@
-import triangulation.DelaunayTriangulator;
-import triangulation.NotEnoughPointsException;
-import triangulation.Triangle2D;
-import triangulation.Vector2D;
+package kluver;
+
+import kluver.triangulation.Triangle2D;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
-import java.awt.geom.Point2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 /**
  *

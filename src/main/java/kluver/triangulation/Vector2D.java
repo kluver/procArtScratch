@@ -1,4 +1,4 @@
-package triangulation;
+package kluver.triangulation;
 
 /**
  * 2D vector class implementation.

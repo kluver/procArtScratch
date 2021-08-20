@@ -1,3 +1,5 @@
+package kluver;
+
 import javax.swing.*;
 import java.awt.image.BufferedImage;
 

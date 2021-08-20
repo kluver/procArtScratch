@@ -1,4 +1,4 @@
-package triangulation;
+package kluver.triangulation;
 
 /**
  * 2D edge class implementation.
